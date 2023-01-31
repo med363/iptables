@@ -160,3 +160,9 @@ iptables -L --line-numbers
 iptables -D OUPUT "num_ligne"
 ```
 
+Lister les ports en écoute à distance :
+```bash
+nmap -PM ip_machine
+```
+
+
